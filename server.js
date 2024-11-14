@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 // Create a WebSocket server on the specified port
 const PORT = process.env.PORT || 8080; // Render dynamically assigns a port
 const wss = new WebSocket.Server({ port: PORT }, () => {
-    console.log('WebSocket server running on port'.${PORT});
+    console.log('WebSocket server running on port');
 });
 
 // Handle incoming WebSocket connections
